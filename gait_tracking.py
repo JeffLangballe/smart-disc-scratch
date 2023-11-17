@@ -1,3 +1,4 @@
+#%%
 from dataclasses import dataclass
 from matplotlib import animation
 from scipy.interpolate import interp1d
@@ -247,3 +248,5 @@ if False:
     anim.save("animation.gif", writer=animation.PillowWriter(fps))
 
 pyplot.show()
+
+# %%
