@@ -202,7 +202,7 @@ axes[3].legend()
 print("Error: " + "{:.3f}".format(numpy.sqrt(position[-1].dot(position[-1]))) + " m")
 
 # Create 3D animation (takes a long time, set to False to skip)
-if True:
+if False:
     figure = pyplot.figure(figsize=(10, 10))
 
     axes = pyplot.axes(projection="3d")
